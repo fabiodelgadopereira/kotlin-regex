@@ -1,0 +1,345 @@
+{
+	"info": {
+		"_postman_id": "8a14a240-630f-42ea-b213-b5c1e51b708e",
+		"name": "backend-challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AbTp9!fok = true",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"AbTp9!fok = true\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('true');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/AbTp9!fok",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						"AbTp9!fok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vazio = false",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"vazio = false\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('false');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "aa = false",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"aa\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('false');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						"aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ab = false",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"ab = false\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('false');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/ab",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						"ab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAAbbbCc = false",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"AAAbbbCc = false\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('false');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/AAAbbbCc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						"AAAbbbCc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AbTp9!fo = false",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"AbTp9!fo = false\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('false');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/AbTp9!fo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						"AbTp9!fo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AbTp9!foA = false",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"AbTp9!foA = false\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('false');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/AbTp9!foA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						"AbTp9!foA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AbTp9 fok = false",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"AbTp9 fok = false\", () => {\r",
+							"const responseJson = pm.response.text();\r",
+							"console.log(responseJson)\r",
+							"    pm.expect(responseJson).to.eql('false');\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "value",
+						"value": "s",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/password/AbTp9 fok",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"password",
+						"AbTp9 fok"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
